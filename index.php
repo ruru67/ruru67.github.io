@@ -1,9 +1,3 @@
-<?php
-declare(strict_types=1);
-ini_set('display_errors', '1');
-require_once("php/phpFunctions.php");
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,9 +6,10 @@ require_once("php/phpFunctions.php");
 	<link rel="stylesheet" href="css/globalCss.css" />
 </head>
 <body>
+	<h3>hello</h3>
 	<?php
-	
-	include('pages\page1_FileAnalyzer.php');
+		echo 'test';
+	//include('pages\page1_FileAnalyzer.php');
 
 	?>
 </body>
