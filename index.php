@@ -7,10 +7,6 @@
 </head>
 <body>
 	<h3>hello</h3>
-	<?php
-		echo 'test';
-	//include('pages\page1_FileAnalyzer.php');
-
-	?>
+	
 </body>
 </html>
