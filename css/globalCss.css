@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+    overflow:auto;/*hidden*/
+    background-color: #252526;
+    color:#d1d1d1;
+}
+header{
+    display:flex;
+    justify-content: center;
+}
+h3{
+    margin:0;
+    
+}
+textarea {
+    width: 100%;
+    height: 90%;
+}
+.lblBouton{
+    border: 1px gray solid;
+    background-color: gainsboro;
+    font-weight: normal;
+    padding: 2px;
+    border-radius: 5px;
+    cursor:normal;
+}
+.lblBouton:hover{
+    background-color: lightgray;
+    cursor:pointer;
+}
+.verticalFlex{
+    display: flex;
+    flex-direction: column;
+}
+.hidden{
+    display: none;
+}
